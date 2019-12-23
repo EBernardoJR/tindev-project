@@ -1,0 +1,19 @@
+* {
+  margin: 0; 
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+   height: 100%; /*forçando para que a aplicação ocupe 100% da tela */
+}
+
+body {
+  background: #f5f5f5;
+}
+
+/* ta aplicando ao button e input pq por padrão eles nao herdam a config do html */
+body, button, input {
+  font-family: Arial, Helvetica, sans-serif 
+}

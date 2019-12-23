@@ -1,0 +1,43 @@
+.login-container {
+    height: 100%;
+    display: flex;
+    justify-content: center; /*vai alinhar o item horizontalemte*/
+    align-items: center; /*vai alinhar o item Verticalmente*/
+}
+
+/* estilizando o formulário */
+
+.login-container form {
+    width: 100%;
+    max-width: 300px; /*vai ter um maximo de 300 de alt */
+    display: flex;
+    flex-direction: column; /*vai ficar um abaixo do outro*/
+
+}
+
+.login-container form input {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 48px;
+    padding: 0 20px;/* so vai mexer no campo horizontal*/
+    font-size: 16px;
+    color: rgb(146, 145, 145);
+}
+
+.login-container form input::placeholder{
+    color: #999;
+}
+
+/* so vai estilizar so o button do tipo submit */
+.login-container form button[type=submit] {
+    margin-top: 10px;
+    border: 0;
+    border-radius: 4px;
+    height: 48px;
+    font-size: 16px;
+    background-color: #DF4723;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;/*muda o cursor do mouse quando ele esta por cima do button*/
+}
