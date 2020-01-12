@@ -37,7 +37,7 @@ export default function Login({ history }) {
             value={username}//o valor que vai com o submit desse form
             onChange={evento => setUsername(evento.target.value) //como não retornar o valor, tem que fazer isso
             } //disparada toda vez que tiver alteração no input
-            />
+            required/>
             <button type="submit">Enviar</button>
         </form>
         </div>
