@@ -12,5 +12,5 @@ Servidor.use(express.json())//so vai chegar informação em json
 Servidor.use(cors())//tem que ta antes das rotas
 Servidor.use(routes) //vai usar as rotas
 
-Servidor.listen(3333)  
-console.log('servidor do TINDEV rodando na porta: 3333')                          
+Servidor.listen(3333, () => console.log('servidor do TINDEV rodando na porta: 3333'))  
+                         
